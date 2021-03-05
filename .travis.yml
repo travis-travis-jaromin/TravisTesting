@@ -9,4 +9,4 @@ email:
   recipients:
     - stanjaromin@gmail.com
   on_success: always
-  on_failures: always
+  on_failure: always
