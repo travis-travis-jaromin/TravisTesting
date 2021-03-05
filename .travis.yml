@@ -5,8 +5,8 @@ python:
 script: python test_fruit.py
 
 notifications:
-email:
-  recipients:
-    - stanjaromin@gmail.com
-  on_success: always
-  on_failure: always
+  email:
+    recipients:
+      - stanjaromin@gmail.com
+    on_success: always
+    on_failure: always
