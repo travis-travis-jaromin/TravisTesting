@@ -3,3 +3,10 @@ python:
 - 3.8
 
 script: python test_fruit.py
+
+notifications:
+email:
+  recipients:
+    - stanjaromin@gmail.com
+  on_success: always
+  on_failures: always
