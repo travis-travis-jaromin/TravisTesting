@@ -9,7 +9,7 @@ addons:
 #        pr: true
       run_phase: before_script
       output_format: spdx-json
-      output_dir: 'python'
+      output-dir: 'python'
 script: python test_fruit.py
 
 notifications:
