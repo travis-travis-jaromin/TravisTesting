@@ -2,6 +2,14 @@ language: python
 python:
 - 3.8
 
+addons: 
+  - sbom:
+      on:
+#        branch: sbom_one_fix
+#        pr: true
+      run_phase: before_script
+      output_format: spdx-json
+      output_dir: 'python'
 script: python test_fruit.py
 
 notifications:
